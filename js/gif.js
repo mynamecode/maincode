@@ -2,13 +2,11 @@ var to = 'To You!';
 var nametag = document.getElementById("nametag");
 var present = document.getElementById("present");
 var presentImage = document.getElementById("present-image");
-window.onload = function(){
-  document.getElementById('music').play();
-}
+
 function init() {
 
   present.addEventListener("click", function(e){
-  // document.getElementById('music').play();
+  document.getElementById('music').play();
   present.classList.toggle("open");
   document.getElementById('card').classList.add('card-show');
 
