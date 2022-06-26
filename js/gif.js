@@ -3,7 +3,7 @@ var nametag = document.getElementById("nametag");
 var present = document.getElementById("present");
 var presentImage = document.getElementById("present-image");
 window.onload = function(){
-  document.getElementById('music').play();
+  document.getElementById("music").play();
 }
 function init() {
 
