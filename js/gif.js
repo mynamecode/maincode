@@ -6,7 +6,7 @@ var presentImage = document.getElementById("present-image");
 function init() {
 
   present.addEventListener("click", function(e){
-  document.getElementById('music').play();
+  document.getElementById("music").play();
   present.classList.toggle("open");
   document.getElementById('card').classList.add('card-show');
 
