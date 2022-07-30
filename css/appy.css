@@ -5,6 +5,9 @@
 body{
 	background-color:#000;
 }
+.video{
+display: none;
+}
 .balloon{
 	height: 60px;
 	width: 55px;
